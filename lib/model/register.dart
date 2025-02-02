@@ -1,4 +1,3 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 
 class Register {
@@ -76,9 +75,4 @@ class Register {
 
   factory Register.fromJson(String source) =>
       Register.fromMap(json.decode(source) as Map<String, dynamic>);
-
-  @override
-  String toString() {
-    return "Register{id: $id, name: $name, cpfCnpj: $cpfCnpj, email: $email, phoneNumber: $phoneNumber, address: $address, typeCharacter: $typeCharacter, birthday: $birthday}";
-  }
 }

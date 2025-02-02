@@ -252,11 +252,11 @@ class _CreateRegisterState extends State<CreateRegister> {
   Widget buttonSave(BuildContext context) {
     return ElevatedButton(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
-        iconColor: MaterialStateProperty.all<Color>(Colors.white),
-        iconSize: MaterialStateProperty.all<double>(35),
-        minimumSize: MaterialStateProperty.all<Size>(const Size(70, 70)),
-        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+        backgroundColor: WidgetStateProperty.all<Color>(Colors.green),
+        iconColor: WidgetStateProperty.all<Color>(Colors.white),
+        iconSize: WidgetStateProperty.all<double>(35),
+        minimumSize: WidgetStateProperty.all<Size>(const Size(70, 70)),
+        shape: WidgetStateProperty.all<RoundedRectangleBorder>(
           const RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(20), topRight: Radius.circular(20))),
