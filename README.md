@@ -1,16 +1,27 @@
 # register_app
+Aplicativo para criar registros.
+ 
+## :computer: Tecnologias
+Esse projeto foi desenvolvido utilizando:
 
-A new Flutter project.
+1. Flutter.
+2. Provider.
+3. sqfLite.
 
-## Getting Started
+<h1 align="center">Vamos começar!!</h1>
+ 
+## :rocket: Baixando o projeto: 
+```javascript
+https://github.com/jujulio/register_app.git
+```
 
-This project is a starting point for a Flutter application.
+### :rocket: Configuração inicial
+1. Necessário baixar e rodar flutter pub get
+2. Necessário ter o android emulator.
 
-A few resources to get you started if this is your first Flutter project:
+ ### :book:Licenças
+ Lançamento em 2024 para estudos.
+ Feito com :purple_heart: by [Julio César](https://github.com/jujulio)
+ 
+ Dê um: star: se este projeto te ajudou!
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
